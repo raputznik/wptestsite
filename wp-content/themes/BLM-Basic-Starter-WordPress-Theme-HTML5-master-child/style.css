@@ -1,0 +1,26 @@
+/*
+Theme Name: Bluelime Media Basic Starter Theme MODDED YEH (EMD Web 3)
+Theme URI: http://palebluedot.ca/langara/web3/wptestsite/
+Description: The most insane thing ever
+Author: J Dawg
+Author URI: http://www.yourdomainname.com
+Template: BLM-Basic-Starter-WordPress-Theme-HTML5-master
+Version: 0.1
+*/
+
+@import url("../BLM-Basic-Starter-WordPress-Theme-HTML5-master/style.css");
+
+#content {
+    float: right;
+}
+
+#sidebar {
+	float: none;
+}
+
+#top-nav {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 710px;
+}

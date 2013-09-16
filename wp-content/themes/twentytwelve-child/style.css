@@ -1,0 +1,19 @@
+/*
+Theme Name: Twenty Twelve Child Theme (EMD Web 3)
+Theme URI: http://palebluedot.ca/langara/web3/wptestsite/
+Description: The most insane thing ever
+Author: P. Diddy
+Author URI: http://www.yourdomainname.com
+Template: twentytwelve
+Version: 0.1
+*/
+
+@import url("../twentytwelve/style.css");
+
+.site-title a {
+	color: red !important;
+	/*font-size: 200%;*/
+
+}
+
+
