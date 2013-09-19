@@ -4,11 +4,11 @@ Theme URI: http://palebluedot.ca/langara/web3/wptestsite/
 Description: The most insane thing ever
 Author: J Dawg
 Author URI: http://www.yourdomainname.com
-Template: BLM-Basic-Starter-WordPress-Theme-HTML5-master
+Template: blm
 Version: 0.1
 */
 
-@import url("../BLM-Basic-Starter-WordPress-Theme-HTML5-master/style.css");
+@import url("../blm/style.css");
 
 #content {
     float: right;
