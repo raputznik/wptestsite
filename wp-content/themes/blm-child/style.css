@@ -10,12 +10,8 @@ Version: 0.1
 
 @import url("../blm/style.css");
 
-#content {
-    float: right;
-}
-
-#sidebar {
-	float: none;
+#sidebar, #sidebar h4, #content, #top-nav {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #top-nav {
@@ -23,4 +19,31 @@ Version: 0.1
 	top: 100px;
 	left: 200px;
 	width: 710px;
+	text-transform: uppercase;
+	/*font-size: 3em;*/
 }
+
+#top-nav a {
+	color: #48244c;
+	/*padding: 0 40px;*/
+}
+
+#content {
+    float: right;
+}
+
+#content h1{
+	font-weight: normal;
+	color: #48244c;
+}
+
+#sidebar {
+	float: none;
+	margin: 0 0 0 20px;
+
+}
+
+/*#sidebar h4{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
