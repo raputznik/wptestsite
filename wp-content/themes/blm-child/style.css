@@ -12,6 +12,13 @@ Version: 0.1
 
 #sidebar, #sidebar h4, #content, #top-nav {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+#branding {
+	background: url(images/logo.png) 0% center no-repeat;
 }
 
 #top-nav {
@@ -20,12 +27,19 @@ Version: 0.1
 	left: 200px;
 	width: 710px;
 	text-transform: uppercase;
+	background: none; 
 	/*font-size: 3em;*/
+
 }
 
 #top-nav a {
 	color: #48244c;
 	/*padding: 0 40px;*/
+}
+
+li a:hover {
+	background: none;
+
 }
 
 #content {
@@ -37,13 +51,49 @@ Version: 0.1
 	color: #48244c;
 }
 
+#content p, #sidebar ul {
+	font-size: 12px;
+}
+
 #sidebar {
 	float: none;
 	margin: 0 0 0 20px;
+	padding: 0;
 
 }
 
-/*#sidebar h4{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+#sidebar li {
+	border-bottom: 1px solid #d4d4d4;
 }
-*/
+
+#sidebar h4{
+	font-weight: normal;
+	font-size: 1em;
+	background-color: #99619f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
