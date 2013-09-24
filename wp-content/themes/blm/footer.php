@@ -6,7 +6,7 @@
  */
 ?>
 	<footer>
-		<p>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
+		<p>&copy; <?php echo date( 'Y' ); ?> Copyright Info <? ?></p>
 	</footer>
 	
 </div><!-- end of wrapper -->

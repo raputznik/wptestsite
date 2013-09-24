@@ -16,8 +16,12 @@ get_header(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+
+			<p class="post-date"> <?php echo get_the_date(); ?> </p> <!-- this had to be changed to put date below title -->
 			
-			<?php the_content( __( 'Read more', 'blm_basic' ) ); ?>
+			<?php the_content( __( 'Read more...', 'blm_basic' ) ); ?>
+
+			<div class="post-line"></div>
 				
 			<?php get_template_part( 'inc/meta' ); ?>
 

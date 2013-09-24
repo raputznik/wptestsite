@@ -12,69 +12,72 @@ Version: 0.1
 
 body {
 	background: url(images/bg.gif);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #wrap {
 	border-right: 1px solid #48244c;
 	border-left: 1px solid #48244c;
+	border-bottom: 1px solid #48244c;
 	box-shadow: 1px 5px 5px #B4B4B4;
-
 }
 
-#sidebar, #content, #top-nav, h4 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+#logo a {
+	width: 212px;
+	height: 45;
+	margin: 20px 0 0 32px;
 }
-
-/*#logo {
-	border: 1px solid #48244c;
-}*/
 
 #branding {
 	background: url(images/logo.png) 30px center no-repeat;
-	height: 115px;
+	height: 105px;
 	border-bottom: 10px solid #48244c;
-	/*padding: 0 20px 0 20px;*/
-
+    margin: 0 30px;
+    width: 900px;
 }
 
 #top-nav {
 	position: absolute;
-	top: 70px;
+	top: 60px;
 	left: 315px;
 	width: 710px;
 	text-transform: uppercase;
 	background: none; 
-
 }
 
 #top-nav a {
 	color: #48244c;
 	font-size: 14px;
 	letter-spacing: 1px;
-	/*padding: 0 40px;*/
 }
 
-#top-nav li a:hover {
+#top-nav ul li a:hover, 
+#top-nav ul li.current_page_item a,
+#top-nav ul li.current_page_parent a,
+#top-nav ul li.current_page_ancestor a,
+#top-nav ul li.current-menu-ancestor a, 
+#top-nav ul li.current-menu-item a,
+#top-nav ul li.current-menu-parent a {
 	background: none;
-
+	color: #99619f;
 }
 
 #main {
-	/*padding: 15px 0px 0px 0px;*/
-	/*margin: 15px 0px 0px 0px;*/
 	box-shadow: inset 1px 8px 9px -6px #545454;
-	/*box-shadow: inset 0 0 10px #000000;*/
 }
 
 #content {
     float: right;
 }
 
-#content h1{
-	font-weight: lighter;
+h1, h2 a{
+	font: 30px Georgia, Times, "Times New Roman", serif;
 	color: #48244c;
-	/*font-size: 120%;*/
+}
+
+h2 {
+	margin: 0;
 }
 
 #content p, #sidebar ul {
@@ -87,7 +90,6 @@ body {
 	padding: 0;
 	width: 280px;
 	background: none;
-
 }
 
 #sidebar h4{
@@ -95,34 +97,47 @@ body {
 	font-size: 1em;
 	color: #fff;
 	background-color: #99619f;
-	padding: 4px 0 6px 20px;
+	padding: 4px 0 6px 17px;
 	height: 24px;
-
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#sidebar li {
+#sidebar ul li {
+	padding: 7px 10px 0 0;
 	border-bottom: 1px solid #d4d4d4;
+
 }
 
 #sidebar ul a {
-	padding: 0 20px 0 16px;
+	padding: 0 20px 0 19px;
 
 }
 
-#top-nav ul li.current_page_item a {
-	background: none;
-	color: #48244c;
+.widget {
+    padding: 20px 0 0;
+}
+
+footer {
+	border: none;
+
 }
 
 footer p {
-	display: none;
+	color: #99619f;
+	text-align: right;
+	padding-right: 30px;
 }
 
+/*Posts*/
 
+p.post-date {
+	padding-bottom: 
+}
 
-
-
-
+.post-line {
+	height: 1px;
+	border-bottom: 1px solid #48244c;
+}
 
 
 

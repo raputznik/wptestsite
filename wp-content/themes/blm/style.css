@@ -161,6 +161,7 @@ body {
 	float: left;
 	height: 180px;
 	width: 960px;	
+	top: 20px;
 }
 #logo a {
 	display: block;
@@ -169,7 +170,7 @@ body {
 	margin: 20px 0 0 60px;
 	outline: 0;
 	text-indent: -9999em;
-	width: 800px;
+	width: 100px;
 }
 #tagline {
 	color: #333;
