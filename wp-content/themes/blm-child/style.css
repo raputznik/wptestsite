@@ -13,6 +13,11 @@ Version: 0.1
 body {
 	background: url(images/bg.gif);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #f6f4f6;
+}
+
+.page-id-5 #content{
+	color: purple;
 
 }
 
@@ -21,6 +26,8 @@ body {
 	border-left: 1px solid #48244c;
 	border-bottom: 1px solid #48244c;
 	box-shadow: 1px 5px 5px #B4B4B4;
+	margin: 0 0 10px 20px;
+
 }
 
 #logo a {
@@ -65,6 +72,7 @@ body {
 
 #main {
 	box-shadow: inset 1px 8px 9px -6px #545454;
+
 }
 
 #content {
@@ -140,11 +148,19 @@ p.post-date {
 }
 
 
+.strong{
+	font-size: 120%;
+	color: red;
+}
 
 
 
-
-
+.quotation {
+	float: left;
+	margin-left: 20px;
+	font-size: 150%;
+	color: red;
+}
 
 
 
