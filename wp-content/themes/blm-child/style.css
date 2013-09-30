@@ -138,13 +138,24 @@ footer p {
 
 /*Posts*/
 
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 80%;
+	margin: 0;
+}
+
 p.post-date {
-	padding-bottom: 
+	padding-bottom: 0;
+
+
 }
 
 .post-line {
 	height: 1px;
-	border-bottom: 1px solid #48244c;
+	border-bottom: 1px solid #99619f;
+
 }
 
 
@@ -154,17 +165,27 @@ p.post-date {
 }
 
 
+#quote_thing {
+	width: 200px;
+	font-size: 90%;
+	font-style: italic;
+	color: #99619f;	
+	padding: 70px 20px 0 50px;
 
-.quotation {
-	float: left;
-	margin-left: 20px;
-	font-size: 150%;
-	color: red;
 }
 
+.entrymeta p, a{
+	color: #99619f;
 
+}
 
+.wp-post-image {
+	float: left;
+	margin: 7px 10px 2px 0;
 
+}
+
+/*homepage*/
 
 
 

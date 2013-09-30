@@ -26,7 +26,7 @@ get_header(); ?>
 
 
 
-<div id="funk">
+<div id="quote_thing">
 	<?php $meta_quote = get_post_meta($post->ID, 'quotation', true); 
 			if ($meta_quote) { echo "<p><strong>".$meta_quote."</strong></p>"; } 
 			else { 
