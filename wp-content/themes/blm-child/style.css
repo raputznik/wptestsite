@@ -72,6 +72,7 @@ body {
 
 #main {
 	box-shadow: inset 1px 8px 9px -6px #545454;
+	background: #f6f4f6;
 
 }
 
@@ -84,9 +85,13 @@ h1, h2 a{
 	color: #48244c;
 }
 
-h2 {
+h1, h2 {
 	margin: 0;
 }
+
+/*h1 {
+	margin: 0;
+}*/
 
 #content p, #sidebar ul {
 	font-size: 12px;
@@ -127,6 +132,7 @@ h2 {
 
 footer {
 	border: none;
+	background: #f6f4f6;
 
 }
 
@@ -170,7 +176,10 @@ p.post-date {
 	font-size: 90%;
 	font-style: italic;
 	color: #99619f;	
-	padding: 70px 20px 0 50px;
+	margin: 50px 20px 0 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	background: url(images/quote.png) no-repeat;
 
 }
 

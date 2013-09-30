@@ -17,6 +17,8 @@ get_header(); ?>
 			
 			<h1><?php the_title(); ?></h1>
 
+			<?php the_date('F d, Y', '<h3>', '</h3>', true); ?>
+
 			<?php the_post_thumbnail('medium'); ?>
 			
 			<?php the_content(); ?>
