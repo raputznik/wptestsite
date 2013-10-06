@@ -33,8 +33,6 @@ get_header(); ?>
 				echo "<p>No quote found.</p>"; } ?>
 			</div>
 
-
-
-			</div><!-- #main -->
+		</div><!-- #main -->
 
 <?php get_footer(); ?>
