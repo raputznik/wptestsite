@@ -27,12 +27,39 @@ get_header(); ?>
 
 
 <div id="quote_thing">
-	<?php $meta_quote = get_post_meta($post->ID, 'quotation', true); 
-			if ($meta_quote) { echo "<p><strong>".$meta_quote."</strong></p>"; } 
-			else { 
-				echo "<p>No quote found.</p>"; } ?>
-			</div>
+
+	<!-- old quote -->
+	
+
+<!-- Adding testimonials to sidebar -->
+<?php 
+
+	$args = array(
+		'post_type' => 'testimonial',
+		'orderby' => 'rand', 'posts_per_page' => '1'
+	);
+	$query = new WP_Query( $args );
+
+	while($query->have_posts()): $query->the_post();
+		echo "<h2>";
+		echo the_title();
+		echo "</h2>";
+		echo "<p>";
+		echo get_the_content();
+		echo "</p>";
+	endwhile;
+
+ ?>
+
+</div>
+
+
 
 		</div><!-- #main -->
 
 <?php get_footer(); ?>
+
+
+
+
+

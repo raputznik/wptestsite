@@ -124,6 +124,7 @@ h1, h2 {
 footer {
 	border: none;
 	background: #f6f4f6;
+	text-align: left;
 
 }
 
@@ -131,6 +132,8 @@ footer p {
 	color: #99619f;
 	text-align: right;
 	padding-right: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /*Posts*/
@@ -138,7 +141,7 @@ footer p {
 h3 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: lighter;
-	font-style: italic;
+	font-style: italic;	
 	font-size: 80%;
 	margin: 0;
 }
@@ -166,6 +169,7 @@ p.post-date {
 	width: 200px;
 	font-size: 90%;
 	font-style: italic;
+	font-weight: bolder;
 	color: #99619f;	
 	margin: 50px 20px 0 30px;
 	padding-top: 20px;
@@ -193,37 +197,130 @@ p.post-date {
 	clear: both;
 }
 
-/*#post-5 { 
-	
-}*/
 
 .wp-post-image {
 	border: 10px solid white;
 	margin: 10px 0 0 20px;
 }
 
+.home h1{
+	margin-bottom: 10px;
+}
+
 .home #content {
 	float: left;
 	width: 400px;
-	height: 200px;
+	height: 180px;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .home #content2 {
-	/*display: inline-block;*/
 	float: right;
 	width: 400px;
-	margin: 20px;
+	height: 180px;
+	margin: 20px 40px 0 0;
+	overflow: hidden;
+
 }
 
-/*#post-61 {
-	float: right;
-}*/
+/*Footer*/
 
 .home footer {
-	background-color: grey;
-	height: 800px;
+	background-color: #494d4c;
+	height: 300px;
+	position: relative;
+	width: 100%;
 }
+
+/*.footer-wrap {
+
+}*/
+
+.footer-col1 {
+	float: left;
+	width: 300px; 
+	margin: 30px 30px 30px 30px ;
+}
+
+.footer-col1 h1 {
+	color: #fff;
+}
+
+.footer-col1 h2 {
+	color: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+
+}
+
+.footer-col1 ul{
+	padding: 0;
+	margin: 0 0 0 20px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 12px;
+
+}
+
+.footer-col2 {
+	float: left;
+	width: 300px; 
+	margin: 30px 30px 30px 30px ;
+}
+
+.footer-col2 h1 {
+	color: #fff;
+}
+
+.footer-col2 h2 {
+	color: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+
+}
+
+.footer-col2 p{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
 
 
 
