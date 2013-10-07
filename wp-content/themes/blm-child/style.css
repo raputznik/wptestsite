@@ -16,11 +16,6 @@ body {
 	background-color: #f6f4f6;
 }
 
-.page-id-5 #content{
-	color: purple;
-
-}
-
 #wrap {
 	border-right: 1px solid #48244c;
 	border-left: 1px solid #48244c;
@@ -89,11 +84,7 @@ h1, h2 {
 	margin: 0;
 }
 
-/*h1 {
-	margin: 0;
-}*/
-
-#content p, #sidebar ul {
+#content p, #content2 p, #sidebar ul {
 	font-size: 12px;
 }
 
@@ -196,11 +187,43 @@ p.post-date {
 
 /*homepage*/
 
+.home-wrap {
+	width: 960px;
+	position: relative;
+	clear: both;
+}
 
+/*#post-5 { 
+	
+}*/
 
+.wp-post-image {
+	border: 10px solid white;
+	margin: 10px 0 0 20px;
+}
 
+.home #content {
+	float: left;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
 
+.home #content2 {
+	/*display: inline-block;*/
+	float: right;
+	width: 400px;
+	margin: 20px;
+}
 
+/*#post-61 {
+	float: right;
+}*/
+
+.home footer {
+	background-color: grey;
+	height: 800px;
+}
 
 
 
