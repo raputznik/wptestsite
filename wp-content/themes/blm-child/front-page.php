@@ -17,12 +17,13 @@ get_header(); ?>
 	<section id="content">
 		
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 			
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			
 			<h1><?php echo get_the_title($post = 7); ?> </h1>
 			
-<!-- 			<?php the_content(); ?> -->			
+		
 
 			<?php
 				$new_query_1 = new WP_Query();
