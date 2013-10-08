@@ -11,6 +11,7 @@ get_header(); ?>
 	<?php the_post_thumbnail('full'); ?>
 
 
+
 <div class="home-wrap">	
 
 	<section id="content">
